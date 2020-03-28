@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>javascript Basic Programe </title>
+<script>
+function prime()
+{
+var i=0;
+var j=0;
+var range=document.getElementById("value").value;
+for(i=0;i<range;i++)
+{
+for(j=0;j<i;j++)
+{
+document.write("*");
+}
+document.write("<br/>")
+}
+}
+</script>
+</head>
+<body bgcolor="golden">
+
+<h1 align="center"> check age of person :</h1><br></br>
+
+ENTER  NUMBER :    <input id="value"><br>
+<button onclick="prime()"> prime : </button>
+
+</body>
+</html>
