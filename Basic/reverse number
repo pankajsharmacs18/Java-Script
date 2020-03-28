@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>javascript Basic Programe </title>
+<script>
+function reverse()
+{
+var rev=0;
+var rem=0;
+var num1=document.getElementById("value1").value;
+if(num1>0)
+{
+while(num1>0)
+{
+rem=num1%10;
+rev=rev*10+rem;
+num1=parseInt(num1/10);
+}
+document.write("reverse number is : "+rev);
+}
+else
+{
+document.write("input is not valid ");
+}
+}
+</script>
+</head>
+<body bgcolor="golden">
+
+<h1 align="center"> reverse of a  number :</h1><br></br>
+
+ENTER  NUMBER :    <input id="value1"><br>
+<button onclick="reverse()"> reverse  : </button>
+
+</body>
+</html>
