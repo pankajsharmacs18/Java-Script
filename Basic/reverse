@@ -16,14 +16,7 @@ rev=rev*10+rem;
 num1=parseInt(num1/10);
 }
 document.write("reverse number is : "+rev);
-if(rev==num1)
-{
-document.write("palindrom ");
-}
-else
-{
-document.write("notpalindrome :");
-}
+
 }
 
 else
