@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>HelloG</title>
+<script>
+function even()
+{
+var num=document.getElementById("value").value;
+if(num%2==0)
+{
+document.write("Even ");
+}
+else
+{
+document.write("Odd");
+}
+}
+
+
+</script>
+</head>
+<body>
+<h1 align="center">This is JavaScript<h1><br>
+
+Enter number : <input id="value">
+<button onclick="even()">check num</button>
+
+
+</body>
+</html>
