@@ -7,6 +7,7 @@ function reverse()
 var rev=0;
 var rem=0;
 var num1=document.getElementById("value1").value;
+var temp=num1;
 if(num1>0)
 {
 while(num1>0)
@@ -16,9 +17,9 @@ rev=rev*10+rem;
 num1=parseInt(num1/10);
 }
 document.write("reverse number is : "+rev);
-if(rev==num1)
+if(rev==temp)
 {
-document.write("palindrom ");
+document.write(" palindrom ");
 }
 else
 {
