@@ -4,27 +4,26 @@
 <script>
 function prime()
 {
-
-var age=document.getElementById("value").value;
-if(age>=18)
+var i=0;
+var j=0;
+var range=document.getElementById("value").value;
+for(i=0;i<range;i++)
 {
-document.write("You are eligible for voat : ");
+for(j=i;j<range;j++)
+{
+document.write("*");
 }
-else
-{
-
-document.write("Not Eligible : ");
+document.write("<br/>")
 }
 }
 </script>
 </head>
 <body bgcolor="golden">
 
-<h1 align="center"> Pattern :</h1><br></br>
-
+<h1 align="center"> check age of person :</h1><br></br>
 
 ENTER  NUMBER :    <input id="value"><br>
-<button onclick="prime()"> print: </button>
+<button onclick="prime()"> prime : </button>
 
 </body>
 </html>
