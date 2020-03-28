@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>javascript Basic Programe </title>
+<script>
+function factorial()
+{
+var i;
+var fact=1;
+var num1=document.getElementById("value1").value;
+if(num1>0)
+{
+for(i=1;i<=num1;i++)
+{
+fact=fact * i;
+}
+document.write("factorial is " + fact);
+}
+else
+{
+document.write("input is not valid ");
+}
+}
+</script>
+</head>
+<body bgcolor="golden">
+
+<h1 align="center"> factorial of a  number :</h1><br></br>
+
+ENTER  NUMBER :    <input id="value1"><br>
+<button onclick="factorial()"> find Factorial </button>
+
+</body>
+</html>
