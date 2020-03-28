@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>HelloG</title>
+
+</head>
+<body>
+<h1 align="center">This is JavaScript<h1><br>
+<script>
+var name=window.prompt("entre name ");
+var name1=window.prompt("2nd  name ");
+var sum=+name + +name1;
+document.write(sum);
+
+</script>
+
+</body>
+</html>
