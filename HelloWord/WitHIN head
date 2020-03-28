@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>JavaScript </title>
+<script type="text/javascript" >
+function hello(){
+document.write("Hello Pankaj Sharma ")
+}
+</script >
+</head?
+<body>
+
+<h1 align="center"> This is First JavaScript Programme . </h1>
+<br>
+<br>
+<form>
+<input type="button" value="click Here " onclick="hello()">
+hi</input>
+</form>
+</body>
+</html>
