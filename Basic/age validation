@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>javascript Basic Programe </title>
+<script>
+function prime()
+{
+
+var age=document.getElementById("value").value;
+if(age>=18)
+{
+document.write("You are eligible for voat : ");
+}
+else
+{
+
+document.write("Not Eligible : ");
+}
+}
+</script>
+</head>
+<body bgcolor="golden">
+
+<h1 align="center"> check age of person :</h1><br></br>
+
+ENTER  NUMBER :    <input id="value"><br>
+<button onclick="prime()"> prime : </button>
+
+</body>
+</html>
