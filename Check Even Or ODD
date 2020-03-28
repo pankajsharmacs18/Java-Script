@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>HelloG</title>
+<script>
+function even(num)
+{
+var num=num
+if(num%2==0)
+{
+document.write("Even ");
+}
+else
+{
+document.write("Odd");
+}
+}
+
+
+</script>
+</head>
+<body>
+<h1 align="center">This is JavaScript<h1><br>
+<script>
+var name=window.prompt("entre name ");
+even(+name);
+
+</script>
+
+</body>
+</html>
