@@ -1,0 +1,30 @@
+<html>
+
+<head>
+
+
+<title>BasicJavaScrpit</title>
+<script>
+function sum()
+{
+var i=0;
+var sum=0;
+var avg=0;
+var range=document.getElementById("value").value;
+for(i=0;i<=range;i++)
+{
+sum=sum+i;
+}
+document.write("Sum  is : "+sum);
+avg=sum/range;
+document.write("average is"+avg);
+}
+
+</script>
+</head>
+<body bgcolor="shine">
+<h1 align="center"><font align="center" color="red">Sum of range </font></h1><br>
+Enter range : <input id="value">
+<button onclick="sum()" > Sum </button>
+</body>
+</html>
