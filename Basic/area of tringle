@@ -1,0 +1,20 @@
+<html>
+<head>
+
+<title>JavaScript</title>
+<script>
+function area()
+{
+var hight=document.getElementById("hight").value;
+var base=document.getElementById("base").value;
+var area=(base*hight)/2;
+document.write("Area of triangle is : "+ area);
+}</script>
+</head>
+<body>
+Etner Hight : <input id="hight">
+Enter Base : <input id="base">
+<button onclick="area()">press Here</button>
+</body>
+
+</html>
