@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>This is factorial ! </title>
+<script>
+    function fact()
+    {
+        const n = document.getElementById("number").value;
+        let i;
+        document.writeln(typeof n+" "+n);
+        let fact=1;
+        if (n>0)
+        {
+            for(i=1;i<=n;i++)
+            {
+                fact=fact*i;
+            }
+            document.writeln("Factorial of "+n+" is"+fact);
+        }
+        else
+        {
+            document.writeln("Not a right input ! ");
+        }
+    }
+
+</script>
+</head>
+<body>
+
+<h1 align="center"> Factorial of a number !</h1>
+Enter a number : <input id="number" align="center"><br>
+<button value="Clicke me "  onclick="fact()">Click me </button>
+</body>
+</html>
